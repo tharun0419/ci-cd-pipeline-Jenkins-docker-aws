@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = "tarungowda/ci-cd-pipeline-Jenkins-docker-aws"
+        DOCKER_IMAGE = "tarungowda/ci-cd-pipeline-jenkins-docker-aws"
         DOCKER_TAG = "${BUILD_NUMBER}"
     }
     
